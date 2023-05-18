@@ -1,5 +1,4 @@
 import React from 'react'
-import './app.css'
 import Nav from './components/nav'
 const App = () => {
   return (
