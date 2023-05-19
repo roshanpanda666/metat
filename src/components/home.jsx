@@ -16,7 +16,7 @@ const Home = () => {
                         MA
                     </div>
                     <div className='flex items-center justify-center'>   
-                        <span className='h-10 w-16 border-4 lg:h-24 lg:w-40 border-white lg:border-8 rounded-r-full'></span>
+                        <span className='h-10 w-16 border-4 lg:h-24 lg:w-40 border-purple-400 lg:border-8 rounded-r-full'></span>
                         
                     </div>
                     <div className='h-10 w-20 lg:h-24 lg:w-36 text-5xl lg:text-9xl text-white'>NESS</div>
