@@ -8,138 +8,99 @@ const Worlds = () => {
         <div className='text-white text-lg lg:text-4xl'> CHOSE THE WORLD YOU WANT TO EXPLORE</div>
         <div className='flex flex-col mt-10'>
 
-            <motion.div className='h-[70px] w-[350px] mb-10'
+            <motion.div className='h-[160px] w-[350px] mb-10'
             initial={{
-                height:'70px',
-                width:'350px'
+                x:30
+            }}
+            transition={{
+                type:'spring',
+                stiffness:100
+            }}
+            whileInView={{
+                x:0
             }}
             whileHover={{
-                height:'160px',
+                scale:1.1,
             }}
             >
-                <motion.img className='h-[70px] w-[350px]' src="planet-01.png" alt="" 
-                initial={{
-                    y:80,
-                    height:'70px',
-                    width:'350px'
-                }}
-                whileInView={{
-                    y:0
-                }}
-                whileHover={{
-                    height:'160px',
-                }}
-                />
+                <img className='h-[160px] w-[350px]' src="planet-01.png" alt=""/>
+                <div className='text-white absolute -mt-10 text-3xl'>THE HAGWORTS</div>
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] mb-10'
-            initial={{
-                
-                height:'70px',
-                width:'350px'
+            <motion.div className='h-[160px] w-[350px] mb-10'
+             initial={{
+                x:-30
+            }}
+            transition={{
+                type:'spring',
+                stiffness:100
+            }}
+            whileInView={{
+                x:0
             }}
             whileHover={{
-                height:'160px',
+                scale:1.1,
             }}
             >
-                <motion.img className='h-[70px] w-[350px]' src="planet-02.png" alt="" 
-                initial={{
-                    y:80,
-                    height:'70px',
-                    width:'350px'
-                }}
-                transition={{
-                    delay:0.2
-                }}
-                whileInView={{
-                    y:0
-                }}
-                whileHover={{
-                    height:'160px',
-                }}
-                />
+                <img className='h-[160px] w-[350px]' src="planet-02.png" alt=""/>
+                <div className='text-white absolute -mt-10 text-3xl'>THE UPSIDE DOWN</div>
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px]  mb-10'
-            initial={{
-                height:'70px',
-                width:'350px'
+            <motion.div className='h-[160px] w-[350px] mb-10'
+             initial={{
+                x:30
+            }}
+            transition={{
+                type:'spring',
+                stiffness:100
+            }}
+            whileInView={{
+                x:0
             }}
             whileHover={{
-                height:'160px',
+                scale:1.1,
             }}
             >
-                <motion.img className='h-[70px] w-[350px]' src="planet-03.png" alt="" 
-                 initial={{
-                    y:80,
-                    height:'70px',
-                    width:'350px'
-                }}
-                transition={{
-                    delay:0.4
-                }}
-                whileInView={{
-                    y:0
-                }}
-                whileHover={{
-                    height:'160px',
-                }}
-                />
+                <img className='h-[160px] w-[350px]' src="planet-03.png" alt=""/>
+                <div className='text-white absolute -mt-10 text-3xl'>KADIROJO PARAMAI</div>
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] mb-10'
-            initial={{
-                height:'70px',
-                width:'350px'
+            <motion.div className='h-[160px] w-[350px] mb-10'
+             initial={{
+                x:-30
+            }}
+            transition={{
+                type:'spring',
+                stiffness:100
+            }}
+            whileInView={{
+                x:0
             }}
             whileHover={{
-                height:'160px',
+                scale:1.1,
             }}
             >
-                <motion.img className='h-[70px] w-[350px]' src="planet-04.png" alt="" 
-                 initial={{
-                    y:80,
-                    height:'70px',
-                    width:'350px'
-                }}
-                transition={{
-                    delay:0.6
-                }}
-                whileInView={{
-                    y:0
-                }}
-                whileHover={{
-                    height:'160px',
-                }}
-                />
+                <img className='h-[160px] w-[350px]' src="planet-04.png" alt=""/>
+                <div className='text-white absolute -mt-10 text-3xl'>PARADISE ISLAND</div>
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] mb-10'
-            initial={{
-                height:'70px',
-                width:'350px'
+            <motion.div className='h-[160px] w-[350px] mb-10'
+             initial={{
+                x:30
+            }}
+            transition={{
+                type:'spring',
+                stiffness:100
+            }}
+            whileInView={{
+                x:0
             }}
             whileHover={{
-                height:'160px',
+                scale:1.1,
             }}
             >
-               <motion.img className='h-[70px] w-[350px]' src="planet-05.png" alt="" 
-                 initial={{
-                    y:40,
-                    height:'70px',
-                    width:'350px'
-                }}
-                transition={{
-                    delay:0.9
-                }}
-                whileInView={{
-                    y:0
-                }}
-                whileHover={{
-                    height:'160px',
-                    
-                }}
-                />
+                <img className='h-[160px] w-[350px]' src="planet-05.png" alt=""/>
+                <div className='text-white absolute -mt-10 text-3xl'>HAWKINS LABS</div>
             </motion.div>
 
             
@@ -147,6 +108,7 @@ const Worlds = () => {
             
         </div>
         <div className='shadow-[0px_20px_176px_81px_#63b3ed] ml-[20rem]'></div>
+        
       </div>
     </div>
   )
