@@ -8,7 +8,7 @@ const Worlds = () => {
         <div className='text-white text-lg lg:text-4xl'> CHOSE THE WORLD YOU WANT TO EXPLORE</div>
         <div className='flex flex-col mt-10'>
 
-            <motion.div className='h-[70px] w-[350px] border-green-500 border-2 mb-10'
+            <motion.div className='h-[70px] w-[350px] mb-10'
             initial={{
                 height:'70px',
                 width:'350px'
@@ -19,7 +19,7 @@ const Worlds = () => {
             >
                 <motion.img className='h-[70px] w-[350px]' src="planet-01.png" alt="" 
                 initial={{
-                    y:400,
+                    y:80,
                     height:'70px',
                     width:'350px'
                 }}
@@ -32,7 +32,7 @@ const Worlds = () => {
                 />
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] border-green-500 border-2 mb-10'
+            <motion.div className='h-[70px] w-[350px] mb-10'
             initial={{
                 
                 height:'70px',
@@ -44,7 +44,7 @@ const Worlds = () => {
             >
                 <motion.img className='h-[70px] w-[350px]' src="planet-02.png" alt="" 
                 initial={{
-                    y:400,
+                    y:80,
                     height:'70px',
                     width:'350px'
                 }}
@@ -60,7 +60,7 @@ const Worlds = () => {
                 />
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] border-green-500 border-2 mb-10'
+            <motion.div className='h-[70px] w-[350px]  mb-10'
             initial={{
                 height:'70px',
                 width:'350px'
@@ -71,7 +71,7 @@ const Worlds = () => {
             >
                 <motion.img className='h-[70px] w-[350px]' src="planet-03.png" alt="" 
                  initial={{
-                    y:400,
+                    y:80,
                     height:'70px',
                     width:'350px'
                 }}
@@ -87,7 +87,7 @@ const Worlds = () => {
                 />
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] border-green-500 border-2 mb-10'
+            <motion.div className='h-[70px] w-[350px] mb-10'
             initial={{
                 height:'70px',
                 width:'350px'
@@ -98,7 +98,7 @@ const Worlds = () => {
             >
                 <motion.img className='h-[70px] w-[350px]' src="planet-04.png" alt="" 
                  initial={{
-                    y:400,
+                    y:80,
                     height:'70px',
                     width:'350px'
                 }}
@@ -114,7 +114,7 @@ const Worlds = () => {
                 />
             </motion.div>
 
-            <motion.div className='h-[70px] w-[350px] border-green-500 border-2 mb-10'
+            <motion.div className='h-[70px] w-[350px] mb-10'
             initial={{
                 height:'70px',
                 width:'350px'
@@ -125,7 +125,7 @@ const Worlds = () => {
             >
                <motion.img className='h-[70px] w-[350px]' src="planet-05.png" alt="" 
                  initial={{
-                    y:400,
+                    y:40,
                     height:'70px',
                     width:'350px'
                 }}
@@ -137,6 +137,7 @@ const Worlds = () => {
                 }}
                 whileHover={{
                     height:'160px',
+                    
                 }}
                 />
             </motion.div>

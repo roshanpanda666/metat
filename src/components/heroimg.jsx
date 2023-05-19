@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 const Heroimg = () => {
     const scrooltoexp=()=>{
         
-            window.scrollTo({top:800,left:0,behavior:'smooth'})
+            window.scrollTo({top:1000,left:0,behavior:'smooth'})
           
     }
   return (
@@ -27,13 +27,13 @@ const Heroimg = () => {
                     <motion.img className='rounded-l-full lg:h-96 lg:w-10/12 lg:ml-40 lg:rounded-tl-full lg:rounded-bl-full' src="cover.png" alt="" 
                     initial={{
                         opacity:0,
-                        x:800,
+                        x:30,
 
                     }}
                     transition={{
                         duration:1
                     }}
-                    animate={{
+                    whileInView={{
                         x:1,
                         opacity:1,
 
@@ -46,13 +46,13 @@ const Heroimg = () => {
                     <motion.img src="stamp.png" alt="" 
                     initial={{
                         opacity:0,
-                        x:800,
+                        x:20,
                     }}
                     transition={{
                         type:'spring',
                         
                     }}
-                    animate={{
+                    whileInView={{
                         x:0,
                         opacity:1,
                         rotateZ:760
