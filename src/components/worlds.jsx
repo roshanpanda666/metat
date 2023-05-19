@@ -107,7 +107,7 @@ const Worlds = () => {
             
             
         </div>
-        <div className='shadow-[0px_20px_176px_81px_#63b3ed] ml-[20rem]'></div>
+        <div className='shadow-[0px_20px_176px_81px_#63b3ed] mr-[0rem]'></div>
         
       </div>
     </div>

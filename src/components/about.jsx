@@ -15,7 +15,7 @@ const About = () => {
             </div>
         </div>
         
-        <div className='h-10 w-10 rounded-full border-emerald-500 border-2 shadow-[0px_23px_305px_140px_#44337a] blur-3xl'></div>
+        <div className='h-10 w-10 rounded-full '></div>
 
       </div>
     </div>
