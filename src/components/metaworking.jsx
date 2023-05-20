@@ -19,7 +19,7 @@ const Metaworking = () => {
             x:0
         }}
         >
-            <img src="get-started.png" alt="" className='lg:h-96'/></motion.div>
+            <img src="get-started.png" alt="" className='lg:h-96 h-72'/></motion.div>
       </div>
       <div className='flex flex-col'>
         <div className='text-gray-500 text-xs lg:text-start text-center'>HOW METAMERSE WORKS</div>

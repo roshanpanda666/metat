@@ -90,7 +90,7 @@ const Whatsnew = () => {
             x:0
         }}
         >
-            <img src="whats-new.png" alt="" className='lg:h-96'/></motion.div>
+            <img src="whats-new.png" alt="" className='lg:h-96 h-80'/></motion.div>
       </div>
     </div>
     </div>
