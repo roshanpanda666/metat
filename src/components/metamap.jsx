@@ -81,6 +81,9 @@ const Metamap = () => {
                 opacity:0,
                 y:-100
             }}
+            whileHover={{
+                scale:1.5
+            }}
             transition={{
                 type:'spring'
             }}
