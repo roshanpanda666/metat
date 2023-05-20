@@ -28,7 +28,7 @@ const Metaworking = () => {
         <motion.div className='flex flex-row mt-10 space-x-10 lg:text-start'
         initial={{
             opacity:0,
-            x: 10,
+            
         }}
         transition={{
             type: 'spring',
@@ -36,7 +36,7 @@ const Metaworking = () => {
         }}
         whileInView={{
             opacity: 1,
-            x:0
+            
         }}
         >
             <div className='h-20 w-20 bg-gray-500 flex items-center justify-center text-white rounded-xl lg:ml-0 ml-5'>01</div>
@@ -46,7 +46,7 @@ const Metaworking = () => {
         <motion.div className='flex flex-row mt-10 space-x-10'
         initial={{
             opacity:0,
-            x: 10,
+            
         }}
         transition={{
             type: 'spring',
@@ -54,7 +54,7 @@ const Metaworking = () => {
         }}
         whileInView={{
             opacity: 1,
-            x:0
+
         }}
         >
             <div className='h-20 w-20 bg-gray-500 flex items-center justify-center text-white rounded-xl lg:ml-0 ml-5'>02</div>
@@ -64,7 +64,7 @@ const Metaworking = () => {
         <motion.div className='flex flex-row mt-10 space-x-10 lg:text-start'
         initial={{
             opacity:0,
-            x: 10,
+            
         }}
         transition={{
             type: 'spring',
@@ -72,7 +72,7 @@ const Metaworking = () => {
         }}
         whileInView={{
             opacity: 1,
-            x:0
+
         }}
         >
             <div className='h-20 w-20 bg-gray-500 flex items-center justify-center text-white rounded-xl lg:ml-0 ml-5 lg:text-start'>03</div>
