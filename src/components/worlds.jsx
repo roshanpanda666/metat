@@ -10,7 +10,7 @@ const Worlds = () => {
 
             <motion.div className='h-[160px] w-[350px] mb-10'
             initial={{
-                x:30
+                x:10
             }}
             transition={{
                 type:'spring',
@@ -29,7 +29,7 @@ const Worlds = () => {
 
             <motion.div className='h-[160px] w-[350px] mb-10'
              initial={{
-                x:-30
+                x:-10
             }}
             transition={{
                 type:'spring',
@@ -48,7 +48,7 @@ const Worlds = () => {
 
             <motion.div className='h-[160px] w-[350px] mb-10'
              initial={{
-                x:30
+                x:10
             }}
             transition={{
                 type:'spring',
@@ -67,7 +67,7 @@ const Worlds = () => {
 
             <motion.div className='h-[160px] w-[350px] mb-10'
              initial={{
-                x:-30
+                x:-10
             }}
             transition={{
                 type:'spring',
@@ -86,7 +86,7 @@ const Worlds = () => {
 
             <motion.div className='h-[160px] w-[350px] mb-10'
              initial={{
-                x:30
+                x:10
             }}
             transition={{
                 type:'spring',

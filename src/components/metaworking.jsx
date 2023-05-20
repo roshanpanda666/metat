@@ -7,7 +7,7 @@ const Metaworking = () => {
         <motion.div
         initial={{
             opacity:0,
-            x: -100,
+            x: -40,
         }}
         transition={{
             type: 'spring',
