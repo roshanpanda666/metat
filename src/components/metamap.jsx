@@ -75,7 +75,7 @@ const Metamap = () => {
                 y:0
             }}
             />
-            <motion.div className='mb-40 rounded-full shadow-[0px_-6px_29px_0px_#90cdf4] mt-11'
+            <motion.div className='mb-40 rounded-full shadow-[0px_-6px_29px_0px_#90cdf4] mt-11 text-3xl'
             drag
             initial={{
                 opacity:0,
