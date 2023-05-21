@@ -9,19 +9,7 @@ const Heroimg = () => {
   return (
     <>
         <div className='flex items-end justify-end h-96 w-10/12'>
-            <div className='hidden lg:block w-52 h-52 mb-48 rounded-full shadow-[0px_20px_79px_12px_#9f7aea] backdrop-blur-sm bg-purple-500'><motion.img src="get-started.png" alt="" 
-            initial={{
-                x: -400,
-            }}
-            transition={{
-                type:'spring',
-                stiffness: 30,
-            }}
-            animate={{
-                x:0,
-                rotateY:360
-            }}
-            /></div>
+           
                
                 <div className='mb-20 lg:mb-28 h-96 w-11/12'>
                     <motion.img className='rounded-l-full lg:h-96 lg:w-10/12 lg:ml-40 lg:rounded-tl-full lg:rounded-bl-full' src="cover.png" alt="" 
