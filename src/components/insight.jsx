@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+
 const Insight = () => {
   return (
     <div className='mt-10 flex justify-center items-center text-white flex-col'>
@@ -128,7 +129,70 @@ const Insight = () => {
           }}
           ><img src="planet-09.png" alt="" className='lg:h-96 lg:w-[30rem] h-72 w-[20rem] rounded-xl'/></motion.div>
       </div>
+      <div className='text-4xl mt-20'>3 STEPS TO START</div>
+      <div className='flex '>
+
+      <motion.div className='mt-96 mr-11 text-purple-600'
+      initial={{
+        opacity:0
+      }}
+      transition={{
+        delay:0.4
+      }}
+      whileInView={{
+        opacity:1
+      }}
+      >chose a world
+      <hr className='border-purple-600' />
+      </motion.div>
       
+        <div className='  h-[35rem] w-1 mt-10'
+        
+        >
+          
+          <motion.div className=' bg-purple-600 h-[10rem] shadow-[0px_7px_36px_13px_#9f7aea]'
+          initial={{
+            height:0
+          }}
+          transition={{
+            type:'spring',
+            stiffness:6,
+          }}
+          whileInView={{
+            height:600
+          }}
+          ></motion.div>
+
+        
+        </div>
+        <motion.div className='mt-52 ml-10 text-blue-500'
+        initial={{
+          opacity:0
+        }}
+        transition={{
+          delay:0.2
+        }}
+        whileInView={{
+          opacity:1
+        }}
+        >login
+        <hr className='border-blue-500 w-16 ' />
+        <motion.div className='mt-[20rem] text-red-400'
+        initial={{
+          opacity:0
+        }}
+        transition={{
+          delay:1
+        }}
+        whileInView={{
+          opacity:1
+        }}
+        >enjoy
+        <hr className='border-red-400'/>
+        </motion.div>
+        </motion.div>
+        
+      </div>
     </div>
   )
 }
